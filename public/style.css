@@ -16,6 +16,10 @@ body{
     height: 100vh;
     width: 100vw;
 }
+.container_1{
+    display: flex;
+    justify-content: center;
+}
 .card{
     margin-top: 20px;
     box-shadow: 2px 2px 5px grey;
@@ -30,7 +34,8 @@ body{
     flex-direction: row; 
     flex-wrap: wrap;
     gap: 76px;
-    justify-content: center;
+    justify-content: flex-start;
+    max-width: 1000px;
 }
 .main{
     text-align: center;

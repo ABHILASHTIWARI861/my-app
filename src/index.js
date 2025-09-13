@@ -8,6 +8,7 @@ const root=ReactDom.createRoot(document.querySelector(".root"));
 root.render(
   <div className="main">
   <h1>My contact List</h1>,
+  <div className="container_1">
   <div className="container">
 <App
   name="ABHILASH"
@@ -45,8 +46,7 @@ root.render(
   phone="+91-674483652"
   email="jonas2@gmail.com"
   />
-  
-</div>
   </div>
-
+  </div>
+  </div>
 );
