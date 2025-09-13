@@ -34,8 +34,7 @@ body{
     flex-direction: row; 
     flex-wrap: wrap;
     gap: 76px;
-    justify-content: flex-start;
-    max-width: 1000px;
+    justify-content: flex-start; // no need flex will automatically do it.
 }
 .main{
     text-align: center;
